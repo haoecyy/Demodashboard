@@ -8,6 +8,6 @@ region = st.selectbox("Select Region:", ["North", "East", "West", "South"])
 if st.button("Submit"):
   if sales >= 100000:
     st.write("good job, great target")
-  st.success(f"your target is {sales} in {region}")
+st.success(f"your target is {sales} in {region}")
 
 
